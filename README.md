@@ -13,11 +13,3 @@ I use labeled training data and unlabeled test data provided by the competition 
 My approach includes:
 - **Multi-input Neural Network**: Analyzes linguistic features to predict text difficulty.
 - **Fine-tuning of the Camembert Model**: Adapts this robust language model to better understand the nuances of French texts, improving its predictive accuracy.
-
-## Repository Insights
-The GitHub repository showcases:
-- Comparative analysis of various machine learning models like Logistic Regression, KNN, Decision Trees, and Random Forests.
-- Evaluations based on precision, recall, F1-score, and accuracy metrics.
-- Confusion matrix and detailed error analysis to refine model predictions.
-- Further explorations to deepen understanding of model behavior.
-
