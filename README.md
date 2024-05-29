@@ -36,7 +36,8 @@ I generated a bar plot to visually confirm that the data across the different cl
 #### Logistic Regression
 - **Approach**: A simple yet powerful linear model used for classification tasks.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.454}$
--  ![Confusion Matrix for Logistic Regression](/imgs/LR_01.png)
+
+![Confusion Matrix for Logistic Regression](/imgs/LR_01.png)
 
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
@@ -47,12 +48,14 @@ I generated a bar plot to visually confirm that the data across the different cl
 #### Decision Tree
 - **Approach**: A flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.302}$
--  ![Confusion Matrix for Logistic Regression](/imgs/DT_01.png)
+
+![Confusion Matrix for Logistic Regression](/imgs/DT_01.png)
 
 #### Random Forest
 - **Approach**: An ensemble method using multiple decision trees to improve classification accuracy and control over-fitting.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.382}$
--  ![Confusion Matrix for Logistic Regression](/imgs/RF_01.png)
+
+![Confusion Matrix for Logistic Regression](/imgs/RF_01.png)
 
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
@@ -100,7 +103,8 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 
 #### Model Evaluation
 - $\color{lightgreen}{Accuracy:\ ~\ 0.594}$
-- ![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](/imgs/cam_01.png)
+
+![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](/imgs/cam_01.png)
 
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
 
