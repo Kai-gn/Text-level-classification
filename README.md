@@ -106,6 +106,7 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 
 ![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](/imgs/cam_01.png)
 
+
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
 
 ## Best Method and Further Improvements
