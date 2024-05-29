@@ -7,10 +7,11 @@ This project develops a machine learning model to predict the difficulty level o
 The objective of this project is to provide learners with an automated tool that identifies the difficulty level of French texts. By doing so, learners can engage with materials that are neither too easy nor too hard, enhancing both learning efficiency and engagement.
 
 ## Data Utilization
-I use labeled training data and unlabeled test data provided by the competition organizers to train and validate our models. These models are designed to streamline the assessment of text difficulty for educational purposes.
+I use labeled training data and (sometimes) the unlabeled test data provided by the competition organizers to train and validate our models. These models are designed to streamline the assessment of text difficulty for educational purposes.
 
 ## Technical Development
 My approach includes:
+- **Initial Use of Classical Machine Learning Algorithms**: Before employing more complex models, I first used traditional machine learning algorithms such as Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, and Random Forests to establish a baseline for performance. These algorithms are well-known for their effectiveness in various classification tasks and provided initial insights into the challenge of classifying text difficulty.
 - **Multi-input Neural Network**: Analyzes linguistic features to predict text difficulty.
 - **Fine-tuning of the Camembert Model**: Adapts this robust language model to better understand the nuances of French texts, improving its predictive accuracy.
 
