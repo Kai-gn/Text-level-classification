@@ -72,7 +72,7 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 - **Reevaluation of PCA**: After assessing the impact of PCA on model performance, I find it detrimental to prediction accuracy as critical information is lost. Consequently, PCA is removed from the process.
 
 #### Step 4: Neural Network Configuration and Training
-- **Constructing the Neural Network**: Utilizing TensorFlow’s Keras library, I build a neural network designed to integrate both tokenized text data and numerical embeddings efficiently.
+- **Constructing the Neural Network**: Utilizing TensorFlow’s Keras library, I build a neural network designed to integrate both tokenized numerical features and embedded text efficiently.
 
 #### Step 5: Hyperparameter Tuning and Optimization
 - **Hypermodel Training**: To achieve the best possible model performance, I utilized hypermodel training to systematically test a range of hyperparameters. This included adjustments to learning rate, weight decay, batch size, embedding unit sizes, numeral features units, and the dimensions of the final output layers. By automating the search for the optimal configuration, I was able to significantly enhance the learning process and overall model accuracy.
