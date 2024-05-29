@@ -29,15 +29,10 @@ Before applying the models, I first analyzed the distribution of data. This was 
 **Bar Plot Visualization**:
 I generated a bar plot to visually confirm that the data across the different classes (difficulty levels from A1 to C2) is evenly distributed. This plot is crucial as it underpins my confidence in the subsequent model training and validation phases.
 
-![Bar Plot of Data Distribution](/imgs/dist_01.png =414x309)
+[<img src="/imgs/dist_01.png" width="400"/>](dist_01.png)
 
-[<img src="/imgs/dist_01.png" width="400"/>](image.png)
+*Bar Plot of Data Distribution*
 
-*test*
-
-<img src="/imgs/dist_01.png" width="400">
-
-*image_caption*
 
 ### Model Training and Validation
 
@@ -46,6 +41,10 @@ I generated a bar plot to visually confirm that the data across the different cl
 - $\color{lightgreen}{Evaluation\ Score:\ 0.454}$
 
 ![Confusion Matrix for Logistic Regression](/imgs/LR_01.png)
+
+[<img src="/imgs/LR_01.png" width="500"/>](LR_01.png)
+
+*Confusion Matrix for Logistic Regression*
 
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
