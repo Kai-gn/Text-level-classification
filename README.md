@@ -105,7 +105,7 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
 
-### Best Method and Further Improvements
+## Best Method and Further Improvements
 
 #### Best Performing Method
 The best results were achieved through the fine-tuning of the Camembert model. This approach proved highly effective for the specific task of classifying the difficulty of French texts. The advanced capabilities of the transformer-based Camembert model allowed it to capture and utilize the complex nuances of the French language more efficiently than the other methods.
