@@ -41,6 +41,7 @@ I generated a bar plot to visually confirm that the data across the different cl
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.4}$
+
 ![Confusion Matrix for Logistic Regression](/imgs/KNN_01.png)
 
 #### Decision Tree
