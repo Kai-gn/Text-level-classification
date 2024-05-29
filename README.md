@@ -33,22 +33,26 @@ I generated a bar plot to visually confirm that the data across the different cl
 #### Logistic Regression
 - **Approach**: A simple yet powerful linear model used for classification tasks.
 - **Evaluation Score**: [Include evaluation score here]
-- **Confusion Matrix Visualization**: ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
+- **Confusion Matrix Visualization**:
+-  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
 - **Evaluation Score**: [Include evaluation score here]
-- **Confusion Matrix Visualization**: ![Confusion Matrix for KNN](path/to/confusion_matrix_knn.png)
+- **Confusion Matrix Visualization**:
+-  ![Confusion Matrix for KNN](path/to/confusion_matrix_knn.png)
 
 #### Decision Tree
 - **Approach**: A flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label.
 - **Evaluation Score**: [Include evaluation score here]
-- **Confusion Matrix Visualization**: ![Confusion Matrix for Decision Tree](path/to/confusion_matrix_dt.png)
+- **Confusion Matrix Visualization**:
+-  ![Confusion Matrix for Decision Tree](path/to/confusion_matrix_dt.png)
 
 #### Random Forest
 - **Approach**: An ensemble method using multiple decision trees to improve classification accuracy and control over-fitting.
 - **Evaluation Score**: [Include evaluation score here]
-- **Confusion Matrix Visualization**: ![Confusion Matrix for Random Forest](path/to/confusion_matrix_rf.png)
+- **Confusion Matrix Visualization**:
+-  ![Confusion Matrix for Random Forest](path/to/confusion_matrix_rf.png)
 
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
