@@ -85,7 +85,7 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 
 This comprehensive, multi-stage approach not only optimized the predictive accuracy but also provided deep insights into the textual features most indicative of French text difficulty. By iterating over various techniques and optimizations, the methodology refined the predictive capabilities of the neural network, setting a robust foundation for practical application in educational technologies.
 
-### Method 3 - Fine-Tuning Camembert Model with Transformers Library
+## Method 3 - Fine-Tuning Camembert Model with Transformers Library
 
 #### Overview
 In this approach, I leverage the power of the Camembert model, a transformer model adapted specifically for the French language, to predict the difficulty of French texts. This method involves fine-tuning the pre-trained Camembert on our dataset to tailor it more closely to the specific task of text difficulty classification.
