@@ -15,7 +15,7 @@ My approach includes:
 - **Multi-input Neural Network**: Analyzes linguistic features to predict text difficulty.
 - **Fine-tuning of the Camembert Model**: Adapts this robust language model to better understand the nuances of French texts, improving its predictive accuracy.
 
-## Methodology 1 Overview - ML algorithms
+## Method 1 - ML algorithms
 
 My project applies several machine learning algorithms to predict the difficulty level of French texts. The methodologies I adopted include Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, and Random Forest. Each model was evaluated based on its accuracy and further analyzed using confusion matrices. Here’s a step-by-step breakdown of my approach:
 
@@ -57,7 +57,7 @@ I generated a bar plot to visually confirm that the data across the different cl
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 
-## Methodology 2 Neural Network with Feature Engineering and Optimization
+## Method 2 - Neural Network with Feature Engineering and Optimization
 
 #### Step 1: Tokenization and Embedding
 - **Tokenization Techniques**: I employed the Mistral API to tokenize the French texts, which is specifically designed for the French language, ensuring that the nuances and morphological aspects of French are accurately captured. Following tokenization, I used the Camembert embedding models to convert text tokens into vector representations. Camembert is a powerful language model based on the RoBERTa architecture, adapted and pre-trained specifically for the French language, making it ideal for this task.
@@ -84,3 +84,23 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 ![Confusion Matrix for Neural Network Model](path/to/confusion_matrix_nn.png)
 
 This comprehensive, multi-stage approach not only optimized the predictive accuracy but also provided deep insights into the textual features most indicative of French text difficulty. By iterating over various techniques and optimizations, the methodology refined the predictive capabilities of the neural network, setting a robust foundation for practical application in educational technologies.
+
+### Method 3 - Fine-Tuning Camembert Model with Transformers Library
+
+#### Overview
+In this approach, I leverage the power of the Camembert model, a transformer model adapted specifically for the French language, to predict the difficulty of French texts. This method involves fine-tuning the pre-trained Camembert on our dataset to tailor it more closely to the specific task of text difficulty classification.
+
+#### Training Process
+- **Model Selection**: I chose the Camembert model due to its robust performance on French language tasks and its capability to understand nuanced linguistic features.
+- **Fine-Tuning with Trainer**: I utilized the Trainer from the Hugging Face Transformers library to fine-tune the Camembert model on our dataset. The Trainer is a feature within the library that simplifies the training process by handling many of the routine tasks involved in training transformer models.
+
+#### Model Optimization
+- **Trial and Error Method**: The process of achieving good accuracy involved trial and error, where I manually adjusted hyperparameters and model configurations. While this method is not the most efficient form of optimization, it allowed for hands-on adjustments that gradually improved the model's performance based on empirical results.
+
+#### Model Evaluation
+- **Evaluation Accuracy**: After several iterations, the fine-tuned model achieved an evaluation accuracy of [Insert evaluation accuracy here]. This accuracy indicates the model's proficiency in classifying the difficulty levels of French texts.
+- **Confusion Matrix Visualization**: The confusion matrix provides a visual representation of the model's performance across various text difficulty categories, identifying strengths and pinpointing areas where the model may struggle.
+
+![Confusion Matrix for Camembert Model](path/to/confusion_matrix_camembert.png)
+
+This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
