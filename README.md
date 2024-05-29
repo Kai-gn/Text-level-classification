@@ -84,7 +84,9 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 - **Accuracy Measurement**: The performance of the final model is quantified through its accuracy metric, reflecting how well the model predicts the difficulty levels of new texts.
 - **Confusion Matrix for Insight**: A confusion matrix is generated to visualize the model's performance across different difficulty classes, highlighting successes and areas for potential improvement.
 
-![Confusion Matrix for Neural Network Model](path/to/confusion_matrix_nn.png)
+![Confusion Matrix for Neural Network Model](path/to/output_hyper_01.png)
+
+The confusion matrix reveals notable strengths in identifying the extremes of language proficiency (A1 and C2), likely due to their distinctive linguistic features. However, the model faces challenges with mid-level classifications (A2 to C1), where there is a greater degree of overlap in language complexity and text structure. To enhance model accuracy, it may be beneficial to incorporate more discriminative features that can capture subtle differences between these levels. Possible approaches could include deeper linguistic analysis, such as syntax complexity and semantic diversity. Further refinement in feature engineering and model training could lead to better differentiation across all classes, making the tool more reliable for educational applications.
 
 This comprehensive, multi-stage approach not only optimized the predictive accuracy but also provided deep insights into the textual features most indicative of French text difficulty. By iterating over various techniques and optimizations, the methodology refined the predictive capabilities of the neural network, setting a robust foundation for practical application in educational technologies.
 
