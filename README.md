@@ -81,7 +81,8 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 - **Hypermodel Training**: To achieve the best possible model performance, I utilized hypermodel training to systematically test a range of hyperparameters. This included adjustments to learning rate, weight decay, batch size, embedding unit sizes, numeral features units, and the dimensions of the final output layers. By automating the search for the optimal configuration, I was able to significantly enhance the learning process and overall model accuracy.
 
 #### Step 6: Model Evaluation
-- $\color{green}{Acuracy:\ 100}$
+- $\color{lightgreen}{Acuracy:\ 100}$
+
 ![Confusion Matrix for Neural Network Model](path/to/output_hyper_01.png)
 
 The confusion matrix reveals notable strengths in identifying the extremes of language proficiency (A1 and C2), likely due to their distinctive linguistic features. However, the model faces challenges with mid-level classifications (A2 to C1), where there is a greater degree of overlap in language complexity and text structure. To enhance model accuracy, it may be beneficial to incorporate more discriminative features that can capture subtle differences between these levels. Possible approaches could include deeper linguistic analysis, such as syntax complexity and semantic diversity. Further refinement in feature engineering and model training could lead to better differentiation across all classes, making the tool more reliable for educational applications.
