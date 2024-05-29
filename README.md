@@ -9,6 +9,9 @@ The objective of this project is to provide learners with an automated tool that
 ## Data Utilization
 I use labeled training data and (sometimes) the unlabeled test data provided by the competition organizers to train and validate our models. These models are designed to streamline the assessment of text difficulty for educational purposes.
 
+### Data Augmentation Attempt
+I experimented with data augmentation to increase the diversity and amount of training data, hoping to enhance the model's ability to generalize across unseen texts. However, these efforts did not yield the expected improvements in performance. This outcome indicates that there is substantial room for developing more effective augmentation strategies that could better address the challenges of text difficulty classification.
+
 ## Technical Development
 My approach includes:
 - **Initial Use of Classical Machine Learning Algorithms**: Before employing more complex models, I first used traditional machine learning algorithms such as Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, and Random Forests to establish a baseline for performance. These algorithms are well-known for their effectiveness in various classification tasks and provided initial insights into the challenge of classifying text difficulty.
@@ -114,9 +117,6 @@ The best results were achieved through the fine-tuning of the Camembert model. T
 - **Further Hyperparameter Tuning**: More systematic and extensive hyperparameter tuning could yield better results. Utilizing tools like grid search or Bayesian optimization could help in finding the optimal set of parameters more efficiently than the trial and error method used.
 - **Refine Data Augmentation Techniques**: Although initial attempts at data augmentation did not significantly improve results, this area holds potential for enhancement. Exploring more sophisticated text augmentation techniques such as synonym replacement, back-translation, or using contextual word replacements provided by models like BERT could lead to a more effective increase in data variability and model robustness.
 - **Ensemble Methods**: Combining the predictions from multiple models, including those fine-tuned with different subsets of data or using different NLP techniques, could enhance accuracy and reliability. Ensemble methods often lead to better generalization on complex tasks like text classification.
-
-#### Data Augmentation Attempt
-I experimented with data augmentation to increase the diversity and amount of training data, hoping to enhance the model's ability to generalize across unseen texts. However, these efforts did not yield the expected improvements in performance. This outcome indicates that there is substantial room for developing more effective augmentation strategies that could better address the challenges of text difficulty classification.
 
 ### Conclusion
 In conclusion, while the fine-tuning of the Camembert model delivered the best results among the methods I tried, there remains significant scope for enhancement. Systematic hyperparameter optimization, refining data augmentation strategies, and exploring ensemble methods are potential strategies that could further boost the model’s performance. Each step taken in this project builds on our understanding of applying machine learning to language processing, highlighting both the potential and the challenges of NLP tasks. Moving forward, implementing these improvements could lead to even more accurate and robust models for classifying text difficulty, ultimately making this tool more useful for learners of French.
