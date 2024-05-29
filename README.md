@@ -29,7 +29,7 @@ Before applying the models, I first analyzed the distribution of data. This was 
 **Bar Plot Visualization**:
 I generated a bar plot to visually confirm that the data across the different classes (difficulty levels from A1 to C2) is evenly distributed. This plot is crucial as it underpins my confidence in the subsequent model training and validation phases.
 
-![Bar Plot of Data Distribution](/imgs/dist_01.png)
+![Bar Plot of Data Distribution](/imgs/dist_01.png =414x309)
 
 ### Model Training and Validation
 
