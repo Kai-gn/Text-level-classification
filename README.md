@@ -29,29 +29,29 @@ Before applying the models, I first analyzed the distribution of data. This was 
 **Bar Plot Visualization**:
 I generated a bar plot to visually confirm that the data across the different classes (difficulty levels from A1 to C2) is evenly distributed. This plot is crucial as it underpins my confidence in the subsequent model training and validation phases.
 
-![Bar Plot of Data Distribution](path/to/bar_plot_image.png)
+![Bar Plot of Data Distribution](/imgs/dist_01.png)
 
 ### Model Training and Validation
 
 #### Logistic Regression
 - **Approach**: A simple yet powerful linear model used for classification tasks.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.454}$
--  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
+-  ![Confusion Matrix for Logistic Regression](/imgs/LR_01.png)
 
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.4}$
--  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
+-  ![Confusion Matrix for Logistic Regression](/imgs/KNN_01.png)
 
 #### Decision Tree
 - **Approach**: A flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.302}$
--  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
+-  ![Confusion Matrix for Logistic Regression](/imgs/DT_01.png)
 
 #### Random Forest
 - **Approach**: An ensemble method using multiple decision trees to improve classification accuracy and control over-fitting.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.382}$
--  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
+-  ![Confusion Matrix for Logistic Regression](/imgs/RF_01.png)
 
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
@@ -79,7 +79,7 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 #### Step 6: Model Evaluation
 - $\color{lightgreen}{Accuracy:\ 0.5875}$
 
-![Confusion Matrix for Neural Network Model](path/to/output_hyper_01.png)
+![Confusion Matrix for Neural Network Model](/imgs/output_hyper_01.png)
 
 The confusion matrix reveals notable strengths in identifying the extremes of language proficiency (A1 and C2), likely due to their distinctive linguistic features. However, the model faces challenges with mid-level classifications (A2 to C1), where there is a greater degree of overlap in language complexity and text structure. To enhance model accuracy, it may be beneficial to incorporate more discriminative features that can capture subtle differences between these levels. Possible approaches could include deeper linguistic analysis, such as syntax complexity and semantic diversity. Further refinement in feature engineering and model training could lead to better differentiation across all classes, making the tool more reliable for educational applications.
 
@@ -99,7 +99,7 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 
 #### Model Evaluation
 - $\color{lightgreen}{Accuracy:\ ~\ 0.594}$
-- ![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](path/to/confusion_matrix_camembert.png)
+- ![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](/imgs/cam_01.png)
 
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
 
