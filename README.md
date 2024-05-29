@@ -30,34 +30,25 @@ I generated a bar plot to visually confirm that the data across the different cl
 
 ### Model Training and Validation
 
-I employed four different machine learning models to understand their efficacy in classifying text difficulties. Here is how each model was applied:
-
 #### Logistic Regression
 - **Approach**: A simple yet powerful linear model used for classification tasks.
-- **Rationale**: To establish a baseline for performance due to its ease of implementation and interpretation.
+- **Evaluation Score**: [Include evaluation score here]
+- **Confusion Matrix Visualization**: ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
-- **Rationale**: To leverage the similarity of text feature vectors for classification, assuming that similar difficulty texts lie close to each other in feature space.
+- **Evaluation Score**: [Include evaluation score here]
+- **Confusion Matrix Visualization**: ![Confusion Matrix for KNN](path/to/confusion_matrix_knn.png)
 
 #### Decision Tree
 - **Approach**: A flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label.
-- **Rationale**: To capture non-linear patterns in the data, which could be indicative of varying text complexities.
+- **Evaluation Score**: [Include evaluation score here]
+- **Confusion Matrix Visualization**: ![Confusion Matrix for Decision Tree](path/to/confusion_matrix_dt.png)
 
 #### Random Forest
 - **Approach**: An ensemble method using multiple decision trees to improve classification accuracy and control over-fitting.
-- **Rationale**: To enhance the robustness of decision trees by averaging multiple trees that individually consider random subsets of features and samples.
+- **Evaluation Score**: [Include evaluation score here]
+- **Confusion Matrix Visualization**: ![Confusion Matrix for Random Forest](path/to/confusion_matrix_rf.png)
 
-### Model Evaluation
-
-Each model's performance was quantitatively assessed using accuracy metrics. Accuracy measures the proportion of total correct predictions (both true positives and true negatives) relative to the total dataset.
-
-**Confusion Matrix Visualization**:
-For each model, a confusion matrix was generated to provide insights into the type and frequency of classification errors. This matrix helps in understanding model performance across different classes, highlighting potential biases or weaknesses in classification.
-
-![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
-![Confusion Matrix for KNN](path/to/confusion_matrix_knn.png)
-![Confusion Matrix for Decision Tree](path/to/confusion_matrix_dt.png)
-![Confusion Matrix for Random Forest](path/to/confusion_matrix_rf.png)
-
+The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
