@@ -104,3 +104,19 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 ![Confusion Matrix for Camembert Model](path/to/confusion_matrix_camembert.png)
 
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
+
+### Best Method and Further Improvements
+
+#### Best Performing Method
+The best results were achieved through the fine-tuning of the Camembert model. This approach proved highly effective for the specific task of classifying the difficulty of French texts. The advanced capabilities of the transformer-based Camembert model allowed it to capture and utilize the complex nuances of the French language more efficiently than the other methods.
+
+#### Strategies for Improvement
+- **Further Hyperparameter Tuning**: More systematic and extensive hyperparameter tuning could yield better results. Utilizing tools like grid search or Bayesian optimization could help in finding the optimal set of parameters more efficiently than the trial and error method used.
+- **Refine Data Augmentation Techniques**: Although initial attempts at data augmentation did not significantly improve results, this area holds potential for enhancement. Exploring more sophisticated text augmentation techniques such as synonym replacement, back-translation, or using contextual word replacements provided by models like BERT could lead to a more effective increase in data variability and model robustness.
+- **Ensemble Methods**: Combining the predictions from multiple models, including those fine-tuned with different subsets of data or using different NLP techniques, could enhance accuracy and reliability. Ensemble methods often lead to better generalization on complex tasks like text classification.
+
+#### Data Augmentation Attempt
+I experimented with data augmentation to increase the diversity and amount of training data, hoping to enhance the model's ability to generalize across unseen texts. However, these efforts did not yield the expected improvements in performance. This outcome indicates that there is substantial room for developing more effective augmentation strategies that could better address the challenges of text difficulty classification.
+
+### Conclusion
+In conclusion, while the fine-tuning of the Camembert model delivered the best results among the methods I tried, there remains significant scope for enhancement. Systematic hyperparameter optimization, refining data augmentation strategies, and exploring ensemble methods are potential strategies that could further boost the model’s performance. Each step taken in this project builds on our understanding of applying machine learning to language processing, highlighting both the potential and the challenges of NLP tasks. Moving forward, implementing these improvements could lead to even more accurate and robust models for classifying text difficulty, ultimately making this tool more useful for learners of French.
