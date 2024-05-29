@@ -35,7 +35,7 @@ I generated a bar plot to visually confirm that the data across the different cl
 
 #### Logistic Regression
 - **Approach**: A simple yet powerful linear model used for classification tasks.
-- **Evaluation Score**: [Include evaluation score here]
+- $\color{lightgreen}{Evaluation\ Score:\ 0.4542}$
 - **Confusion Matrix Visualization**:
 -  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
@@ -81,7 +81,7 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 - **Hypermodel Training**: To achieve the best possible model performance, I utilized hypermodel training to systematically test a range of hyperparameters. This included adjustments to learning rate, weight decay, batch size, embedding unit sizes, numeral features units, and the dimensions of the final output layers. By automating the search for the optimal configuration, I was able to significantly enhance the learning process and overall model accuracy.
 
 #### Step 6: Model Evaluation
-- $\color{lightgreen}{Acuracy:\ 100}$
+- $\color{lightgreen}{Accuracy:\ 0.5875}$
 
 ![Confusion Matrix for Neural Network Model](path/to/output_hyper_01.png)
 
