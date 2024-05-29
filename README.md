@@ -42,7 +42,7 @@ I generated a bar plot to visually confirm that the data across the different cl
 
 ![Confusion Matrix for Logistic Regression](/imgs/LR_01.png)
 
-[<img src="/imgs/LR_01.png" width="500"/>](LR_01.png)
+[<img src="/imgs/LR_01.png" width="350"/>](LR_01.png)
 
 *Confusion Matrix for Logistic Regression*
 
