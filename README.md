@@ -15,7 +15,7 @@ My approach includes:
 - **Multi-input Neural Network**: Analyzes linguistic features to predict text difficulty.
 - **Fine-tuning of the Camembert Model**: Adapts this robust language model to better understand the nuances of French texts, improving its predictive accuracy.
 
-## Methodology Overview
+## Methodology 1 Overview (ML algorithms)
 
 My project applies several machine learning algorithms to predict the difficulty level of French texts. The methodologies I adopted include Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, and Random Forest. Each model was evaluated based on its accuracy and further analyzed using confusion matrices. Here’s a step-by-step breakdown of my approach:
 
