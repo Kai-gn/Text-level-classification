@@ -60,32 +60,27 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 ## Methodology 2 Neural Network with Feature Engineering and Optimization
 
 #### Step 1: Tokenization and Embedding
-- **Embedding with Mistral API**: The process begins with the Mistral API, designed specifically for the French language, to ensure accurate recognition and processing of linguistic elements unique to French. This step is crucial for preserving the nuances in the text.
-- **Embedding with Camembert**: Following tokenization, the Camembert model, which is a RoBERTa-based model adapted for French, is used to convert text tokens into dense vector representations. These embeddings capture deep contextual information, setting a strong foundation for feature extraction.
+- **Tokenization Techniques**: I employed the Mistral API to tokenize the French texts, which is specifically designed for the French language, ensuring that the nuances and morphological aspects of French are accurately captured. Following tokenization, I used the Camembert embedding models to convert text tokens into vector representations. Camembert is a powerful language model based on the RoBERTa architecture, adapted and pre-trained specifically for the French language, making it ideal for this task.
+- **Evaluation of Embedding Techniques**: Both the Mistral tokenization and Camembert embeddings were evaluated to determine their effectiveness in capturing linguistic features. The evaluations showed that both methods provided similarly robust results, indicating that our embedding process was capable of capturing comprehensive semantic and syntactic properties of the input texts.
 
-#### Step 2: Evaluation of Embedding Techniques
-- **Effectiveness Assessment**: I evaluate the effectiveness of the embeddings by comparing their performance in classifying text difficulties against benchmarks. This step confirms the robustness of the embeddings in capturing essential linguistic features.
+#### Step 2: Feature Extraction and Selection
+- **Extraction of Linguistic Features**: Post-embedding, I proceeded to extract a wide range of linguistic features from the sentences. These features included syntactic dependencies, part-of-speech tags, and other text-based features that could potentially signal text complexity.
+- **Feature Selection Using Random Forest**: To refine the feature set, I utilized a Random Forest classifier, a robust ensemble learning method known for its high accuracy and control over overfitting. I used the classifier to identify the most predictive features, focusing on selecting the top three features that had the most significant impact on model performance. This selective approach helped in reducing dimensionality and improving the efficiency of the subsequent training process.
 
-#### Step 3: Feature Extraction and Selection
-- **Linguistic Feature Extraction**: With embeddings in place, I extract a broad set of linguistic features that are indicative of text complexity, such as syntactic dependencies and semantic patterns.
-- **Feature Selection with Random Forest**: A Random Forest classifier is then used to determine the most predictive features. This method is chosen for its effectiveness in feature importance evaluation, helping to narrow down the essential attributes for the model.
-
-#### Step 4: Initial PCA Attempt and Reassessment
+#### Step 3: Initial PCA Attempt and Reassessment
 - **Dimensionality Reduction via PCA**: In an effort to simplify the model, Principal Component Analysis (PCA) is applied to reduce the dimensionality of the feature set.
 - **Reevaluation of PCA**: After assessing the impact of PCA on model performance, I find it detrimental to prediction accuracy as critical information is lost. Consequently, PCA is removed from the process.
 
-#### Step 5: Neural Network Configuration and Training
+#### Step 4: Neural Network Configuration and Training
 - **Constructing the Neural Network**: Utilizing TensorFlow’s Keras library, I build a neural network designed to integrate both tokenized text data and numerical embeddings efficiently.
-- **Network Architecture**: The architecture includes several specialized layers such as dropout for regularization, dense layers for learning complex patterns, and activation functions to introduce necessary non-linearities.
 
-#### Step 6: Hyperparameter Tuning and Optimization
-- **Setting Up Hyperparameter Tuning**: I use Keras Tuner to experiment with various configurations of the neural network, including learning rate, batch size, and layer sizes.
-- **Optimization Objective**: The aim is to find the optimal set of hyperparameters that enhances model accuracy while keeping computational costs manageable.
+#### Step 5: Hyperparameter Tuning and Optimization
+- **Hypermodel Training**: To achieve the best possible model performance, I utilized hypermodel training to systematically test a range of hyperparameters. This included adjustments to learning rate, weight decay, batch size, embedding unit sizes, numeral features units, and the dimensions of the final output layers. By automating the search for the optimal configuration, I was able to significantly enhance the learning process and overall model accuracy.
 
-#### Step 7: Model Evaluation
+#### Step 6: Model Evaluation
 - **Accuracy Measurement**: The performance of the final model is quantified through its accuracy metric, reflecting how well the model predicts the difficulty levels of new texts.
 - **Confusion Matrix for Insight**: A confusion matrix is generated to visualize the model's performance across different difficulty classes, highlighting successes and areas for potential improvement.
 
 ![Confusion Matrix for Neural Network Model](path/to/confusion_matrix_nn.png)
 
-Each step in this methodology is designed to build upon the insights gained from the previous, ensuring a comprehensive approach to developing a predictive model that is both accurate and efficient. This systematic process not only refines the model but also deepens our understanding of the underlying patterns in text difficulty.
+This comprehensive, multi-stage approach not only optimized the predictive accuracy but also provided deep insights into the textual features most indicative of French text difficulty. By iterating over various techniques and optimizations, the methodology refined the predictive capabilities of the neural network, setting a robust foundation for practical application in educational technologies.
