@@ -40,8 +40,6 @@ I generated a bar plot to visually confirm that the data across the different cl
 - **Approach**: A simple yet powerful linear model used for classification tasks.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.454}$
 
-![Confusion Matrix for Logistic Regression](/imgs/LR_01.png)
-
 [<img src="/imgs/LR_01.png" width="350"/>](LR_01.png)
 
 *Confusion Matrix for Logistic Regression*
@@ -50,19 +48,25 @@ I generated a bar plot to visually confirm that the data across the different cl
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.4}$
 
-![Confusion Matrix for Logistic Regression](/imgs/KNN_01.png)
+[<img src="/imgs/KNN_01.png" width="350"/>](KNN_01.png)
+
+*Confusion Matrix for KNN*
 
 #### Decision Tree
 - **Approach**: A flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.302}$
 
-![Confusion Matrix for Logistic Regression](/imgs/DT_01.png)
+[<img src="/imgs/DT_01.png" width="350"/>](DT_01.png)
+
+*Confusion Matrix for Decision Tree*
 
 #### Random Forest
 - **Approach**: An ensemble method using multiple decision trees to improve classification accuracy and control over-fitting.
 - $\color{lightgreen}{Evaluation\ Score:\ 0.382}$
 
-![Confusion Matrix for Logistic Regression](/imgs/RF_01.png)
+[<img src="/imgs/RF_01.png" width="350"/>](RF_01.png)
+
+*Confusion Matrix for Random Forest*
 
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
