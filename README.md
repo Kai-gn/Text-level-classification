@@ -31,7 +31,8 @@ I generated a bar plot to visually confirm that the data across the different cl
 
 ![Bar Plot of Data Distribution](/imgs/dist_01.png =414x309)
 
-<img src="/imgs/dist_01.png" alt="drawing" width="400">
+<img src="/imgs/dist_01.png" width="400">
+*image_caption*
 
 ### Model Training and Validation
 
