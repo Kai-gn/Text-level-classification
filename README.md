@@ -94,7 +94,7 @@ The methodology outlined ensures a thorough understanding and comparison of how 
 #### Step 6: Model Evaluation
 - $\color{lightgreen}{Accuracy:\ 0.5875}$
 
-[<img src="/imgs/output_hyper_01.png" width="350"/>](output_hyper_01.png)
+[<img src="/imgs/output_hyper_01.png" width="400"/>](output_hyper_01.png)
 
 *Confusion Matrix for Neural Network Model*
 
@@ -117,7 +117,9 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 #### Model Evaluation
 - $\color{lightgreen}{Accuracy:\ ~\ 0.594}$
 
-![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](/imgs/cam_01.png)
+[<img src="/imgs/cam_01.png" width="400"/>](cam_01.png)
+
+*Confusion Matrix for Camembert Model (not the one for the score above but very representative)*
 
 
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
