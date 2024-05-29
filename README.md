@@ -57,7 +57,7 @@ I generated a bar plot to visually confirm that the data across the different cl
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
 
-### Advanced Neural Network Methodology: Detailed Step-by-Step Process
+## Methodology 2 Neural Network with Feature Engineering and Optimization
 
 #### Step 1: Tokenization and Embedding
 - **Embedding with Mistral API**: The process begins with the Mistral API, designed specifically for the French language, to ensure accurate recognition and processing of linguistic elements unique to French. This step is crucial for preserving the nuances in the text.
