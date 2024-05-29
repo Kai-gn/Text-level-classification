@@ -35,22 +35,22 @@ I generated a bar plot to visually confirm that the data across the different cl
 
 #### Logistic Regression
 - **Approach**: A simple yet powerful linear model used for classification tasks.
-- $\color{lightgreen}{Evaluation\ Score:\ 0.4542}$
+- $\color{lightgreen}{Evaluation\ Score:\ 0.454}$
 -  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
 #### K-Nearest Neighbors (KNN)
 - **Approach**: A non-parametric method that classifies data points based on the majority label of its nearest neighbors.
-- $\color{lightgreen}{Evaluation\ Score:\ 0.4542}$
+- $\color{lightgreen}{Evaluation\ Score:\ 0.4}$
 -  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
 #### Decision Tree
 - **Approach**: A flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label.
-- $\color{lightgreen}{Evaluation\ Score:\ 0.4542}$
+- $\color{lightgreen}{Evaluation\ Score:\ 0.302}$
 -  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
 #### Random Forest
 - **Approach**: An ensemble method using multiple decision trees to improve classification accuracy and control over-fitting.
-- $\color{lightgreen}{Evaluation\ Score:\ 0.4542}$
+- $\color{lightgreen}{Evaluation\ Score:\ 0.382}$
 -  ![Confusion Matrix for Logistic Regression](path/to/confusion_matrix_lr.png)
 
 The methodology outlined ensures a thorough understanding and comparison of how different algorithms perform on the task of predicting text difficulty. This structured approach helps in identifying the most effective model and in making informed decisions to further improve the model performance.
@@ -98,10 +98,8 @@ In this approach, I leverage the power of the Camembert model, a transformer mod
 - **Trial and Error Method**: The process of achieving good accuracy involved trial and error, where I manually adjusted hyperparameters and model configurations. While this method is not the most efficient form of optimization, it allowed for hands-on adjustments that gradually improved the model's performance based on empirical results.
 
 #### Model Evaluation
-- **Evaluation Accuracy**: After several iterations, the fine-tuned model achieved an evaluation accuracy of [Insert evaluation accuracy here]. This accuracy indicates the model's proficiency in classifying the difficulty levels of French texts.
-- **Confusion Matrix Visualization**: The confusion matrix provides a visual representation of the model's performance across various text difficulty categories, identifying strengths and pinpointing areas where the model may struggle.
-
-![Confusion Matrix for Camembert Model](path/to/confusion_matrix_camembert.png)
+- $\color{lightgreen}{Accuracy:\ ~\ 0.594}$
+- ![Confusion Matrix for Camembert Model (not the one for the score above but very representative)](path/to/confusion_matrix_camembert.png)
 
 This method highlights the practical application of advanced NLP techniques like transformers in specialized tasks such as classifying text difficulty. Through a hands-on, iterative approach to fine-tuning, the model was adapted to perform effectively in real-world scenarios.
 
